@@ -9,12 +9,14 @@
     <!-- Document Content -->
     <header>
         <h1>HTML Week 4 - Images, Links, Forms, and Tables</h1>
-        <nav> <a href="about.html">About</a></nav>
-        
+        <nav> <a href="about.html">About</a></nav> 
+        <!--- names anchors use the # to traget an id attribute-->
+        <a href="#cats">cats</a>
+
     </header>
     <main>
       <!--the src is an attribute that tells the image tag which image to display-->
-      <img src="images/kitten.jpg" alt="kitten sleeping on a blanket" width="300" title="Cute Kitten"/>
+      <img src="images/kitten.jpg" alt="kitten sleeping on a blanket" width="1000" title="Cute Kitten"/>
 
       <article>
         <!--the tag creates a link to take the user elsewhere-->
@@ -22,6 +24,29 @@
 
         <a href="https://google.ca" target="_blank">Google</a>
       </article>
+
+      <Article>
+        <p>Things my cat does</p>
+        <ul>
+          <li>Scretches at dooe</li>
+          <li>Attacks my feet</li>
+          <li>chases my dog</li>
+        </ul>
+
+
+      </Article>
+      <!-- the input label and input tag are linked-->
+
+      <form action="index.html" method="GET">
+        <label for="username">Name: </label>
+        <input id="username">
+
+        <p>
+          <label for="pass">Password: </label>
+          <input id="pass" type="password">
+        </p>
+
+      </form>
 
     </main>
     <footer>
